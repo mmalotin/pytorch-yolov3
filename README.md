@@ -1,6 +1,6 @@
 # YOLO v3 Object Detector implemented in PyTorch
 This repository contains PyTorch implementation of [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) paper.
-*Why this repo?* The code implements the paper in clean pythonic/"pytorch*ish*" style and will be familiar to PyTorch users and (I hope) will be helpful for PyTorch users for understanding the paper. Original pretrained weights (on COCO dataset) were converted into PyTorch's state_dict and can be downloaded [here]() (no need for complicated network builders and weights converters just common `torch.load()`).
+__Why this repo?__ The code implements the paper in clean pythonic/"pytorch*ish*" style and will be familiar and (I hope) helpful for PyTorch users for understanding the paper/using YOLOv3 object detector. Original pretrained weights (on COCO dataset) were converted into PyTorch's state_dict and can be downloaded [here](https://drive.google.com/open?id=1iIn5KXRANisuA8A-gtIljyA2G1A25glF) (no need for complicated network builders and weights converters just common `torch.load()`).
 
 ## Requirements
 - Python 3
