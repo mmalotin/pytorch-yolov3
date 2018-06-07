@@ -25,7 +25,7 @@ $ python webcam.py
 Arguments are the same, except `webcam.py` doesn't have `-save` flag.
 
 ## Examples
-- <img src="https://github.com/mmalotin/pytorch-yolov3/blob/master/predictions/city_prediction.jpg?raw=true" width="700" height="512">
+- <img src="https://github.com/mmalotin/pytorch-yolov3/blob/master/predictions/city_prediction.jpg?raw=true" width="800" height="512">
 
 - <img src="https://github.com/mmalotin/pytorch-yolov3/blob/master/predictions/traffic_prediction.jpg?raw=true" width="512" height="512">
 
