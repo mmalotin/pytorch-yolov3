@@ -16,7 +16,7 @@ The repo contains 2 runable scripts.
 ```
 $ python detect.py images/dog.jpg
 ```
-If you want to specify your own weights file use `-weights path/to/weights` or if you want to save the detection result use `-save` flag.
+If you want to specify your own weights file use `-weights path/to/weights` or if you want to save the detection result use `-save` flag (__Note__: by default weights should be placed in `data` folder).
 
 - Webcam Detection:
 ```
