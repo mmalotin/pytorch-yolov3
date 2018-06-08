@@ -1,12 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from darknet import Darknet
 from route_ext import RouteExtractor
-from PIL import Image, ImageDraw
-from torchvision import transforms
-import numpy as np
-
 
 class BasicConv(nn.Module):
     def __init__(self, c_in, c_out, k_size, stride=1, pad=0, act=True):
