@@ -6,9 +6,10 @@ import cv2
 import argparse
 
 
+torch.backends.cidnn.benchmark = True
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 cline = argparse.ArgumentParser(description='YOLO v3 webcam detection demo')
-cline.add_argument('-weight', default='data/yolo3_weights.pth',
+cline.add_argument('-weights', default='data/yolo3_weights.pth',
                    help='path to pretrained weights')
 cline.add_argument('-obj_thold', type=float, default=0.65,
                    help='threshold for objectness value')
