@@ -16,7 +16,7 @@ The repo contains 2 runable scripts.
 ```
 $ python detect.py images/dog.jpg
 ```
-If you want to specify your own weights file use `-weights path/to/weights` or if you want to save the detection result use `-save` flag.
+If you want to specify your own weights file use `-weights path/to/weights` or if you want to save the detection result use `-save` flag (__Note__: by default weights should be placed in `data` folder).
 
 - Webcam Detection:
 ```
@@ -25,7 +25,7 @@ $ python webcam.py
 Arguments are the same, except `webcam.py` doesn't have `-save` flag.
 
 ## Examples
-- <img src="https://github.com/mmalotin/pytorch-yolov3/blob/master/predictions/city_prediction.jpg?raw=true" width="700" height="512">
+- <img src="https://github.com/mmalotin/pytorch-yolov3/blob/master/predictions/city_prediction.jpg?raw=true" width="800" height="512">
 
 - <img src="https://github.com/mmalotin/pytorch-yolov3/blob/master/predictions/traffic_prediction.jpg?raw=true" width="512" height="512">
 
