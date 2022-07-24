@@ -110,9 +110,9 @@ def add_boxes_to_image(image, boxes, class_list, model_res):
         cls = int(b[-1])
         text_color = tuple(255 - x for x in COLORS[cls % c])
         t_w, t_h = cv2.getTextSize(class_list[cls], font, 0.5, 1)[0]
-        start = (b[0]*w, b[1]*h)
-        end = (b[2]*w, b[3]*h)
-        cv2.rectangle(image, start, end, color=COLORS[cls % c], thickness=2)
+        start = (int(b[0]*w), int(b[1]*h))
+        end = (int(b[2]*w), int(b[3]*h))
+        cv2.rectangle(image, start, end, color=(255, 0, 0), thickness=2)
         cv2.rectangle(image, start, (start[0] + t_w, start[1] + t_h),
                       color=COLORS[cls % c], thickness=-1)
         cv2.putText(image, class_list[cls], (start[0], start[1]+t_h-1),
